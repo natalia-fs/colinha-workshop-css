@@ -1,6 +1,26 @@
+# Workshop de desenhos CSS
+
+## Links úteis
+
+- [Guia de Flexbox (pt-BR)](https://www.alura.com.br/artigos/css-guia-do-flexbox)
+- [Artigo: Entendendo como funciona o Box Model e o Box Sizing](https://www.alura.com.br/artigos/entendendo-como-funciona-box-model-e-o-box-sizing)
+---
+- [Codepen](https://codepen.io/)
+- [Extensão do Visual Studio Code: Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) (Para habilitar o auto-reload em uma aba do navegador)
+- [Extensão do Visual Studio Code: Indent Rainbow](https://marketplace.visualstudio.com/items?itemName=oderwat.indent-rainbow) (Para deixar os espaços de indetação coloridos, mas é totalmente opcional)
+
+---
+
 # Snippets CSS p/ você copiar e colar
 
-
+Reset CSS:
+``` css
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+```
 Quadrado:
 ``` html
 <div class="meu_elemento"></div>
