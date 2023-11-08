@@ -6,7 +6,6 @@ Quadrado:
 <div class="meu_elemento"></div>
 
 <style>
-  /* CSS */
   .meu_elemento{
     width: 50px;
     aspect-ratio: 1;
@@ -20,7 +19,6 @@ Círculo:
 <div class="meu_elemento"></div>
 
 <style>
-  /* CSS */
   .meu_elemento{
     width: 50px;
     height: 50px;
@@ -31,34 +29,99 @@ Círculo:
 ```
 
 Semicírculo:
-<div width="50%">
+``` html
+<div class="meu_elemento"></div>
 
-  ``` html
-  <div class="meu_elemento"></div>
+<style>
+  .meu_elemento{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 0 0 50% 50% / 0 0 100% 100%;
+  }
+</style>
+```
 
-  <style>
-    /* CSS */
-    .meu_elemento{
-      width: 50px;
-      height: 50px;
-      background: red;
-      border-radius: 0 0 50% 50% / 0 0 100% 100%;
-    }
-  </style>
-  ```
+Losango:
+``` html
+<div class="meu_elemento"></div>
 
-</div>
+<style>
+  .meu_elemento{
+    width: 50px;
+    height: 50px;
+    background: purple;
+    transform: rotate(45deg);
+  }
+</style>
+```
 
-<div width="50%">
-    <div class="meu_elemento"></div>
+Gota:
+``` html
+<div class="meu_elemento"></div>
 
-  <style>
-    /* CSS */
-    .meu_elemento{
-      width: 50px;
-      height: 50px;
-      background: red;
-      border-radius: 0 0 50% 50% / 0 0 100% 100%;
-    }
-  </style>
-</div>
+<style>
+  .meu_elemento{
+    width: 50px;
+    height: 50px;
+    background: purple;
+    border-radius: 0 50% 50%;
+    transform: rotate(45deg);
+  }
+</style>
+```
+
+Fundo gradiente (linear):
+``` html
+<div class="meu_elemento"></div>
+
+<style>
+  .meu_elemento{
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(blue, violet);
+  }
+</style>
+```
+
+Fundo gradiente (circular):
+``` html
+<div class="meu_elemento"></div>
+
+<style>
+  .meu_elemento{
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(blue, violet);
+  }
+</style>
+```
+
+Retângulo com borda simples:
+``` html
+<div class="meu_elemento"></div>
+
+<style>
+  .meu_elemento{
+    width: 90px;
+    height: 50px;
+    background: violet;
+    border: 3px solid black;
+  }
+</style>
+```
+
+Elipse com borda pontilhada:
+``` html
+<div class="meu_elemento"></div>
+
+<style>
+  .meu_elemento{
+    width: 90px;
+    height: 50px;
+    background: violet;
+    border-radius: 50%;
+    border: 3px dotted black;
+  }
+</style>
+```
